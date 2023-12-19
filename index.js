@@ -9,14 +9,14 @@ const CHOCOLATE_CAKE_ORDERED = "CHOCOLATE_CAKE_ORDERED";
 function orderCake() {
   return {
     type: CAKE_ORDERED,
-    payload: 1,
+    payload: -1,
   };
 }
 
 function orderIceCream() {
   return {
     type: ICE_CREAM_ORDERED,
-    payload: 1,
+    payload: -1,
   };
 }
 
